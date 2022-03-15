@@ -1,13 +1,7 @@
-const receivesAFunction = saySomething => {
-    return saySomething()
-}
+const receivesAFunction = saySomething => saySomething();
 
 const saySomething = () => "This is life";
 
-const returnsANamedFunction = () =>{
-    return function OneFunc(){}
-}
+const returnsANamedFunction = () => function OneFunc(){} ;
 
-const returnsAnAnonymousFunction = () => {
-    return function(){}
-}
+const returnsAnAnonymousFunction = () => function(){};
